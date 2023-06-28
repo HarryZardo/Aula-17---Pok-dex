@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 17 | Pokédex</title>
+    <link rel="stylesheet" href="Styles.css"/>
+    <link rel="shortcut icon" href="images/pokeball.png" type="image/x-icon"/>
+</head>
+<body>
+    <header>
+        <img src="images/pokemon-logo.png" alt="Logo do pokemon">
+    </header>
+    <main>
+        <div class="pokedex">
+            <div class="cartoes-pokemon">
+
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu">
+                    <div class="cartao-topo">
+
+                        <div class="detalhes">
+                            <h2 class="nome">Pikachu</h2>
+                            <span>#001</span>
+                        </div>
+
+                        <span class="tipo">Elétrico</span>
+
+                        <div class="cartao-imagem">
+                            <img class="imagem-principal" src="images/pikachu.png" alt="Pikachu">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 35</li>
+                                <li>Ataque: 55</li>
+                                <li>Defesa: 40</li>
+                                <li>Ataque especial: 89</li>
+                                <li>Defesa especial: 12</li>
+                                <li>Velocidade: 45</li>
+                                <li>Total: 320</li>
+                            </ul>
+                        </div>
+
+                        <div class="skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Choque do trovão</li>
+                                <li>Esfera elétrica</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
+                    <div class="cartao-topo">
+
+                        <div class="detalhes">
+                            <h2 class="nome">Bulbasaur</h2>
+                            <span>#002</span>
+                        </div>
+
+                        <span class="tipo">Grama</span>
+
+                        <div class="cartao-imagem">
+                            <img class="imagem-principal" src="images/bulbasaur.png" alt="bulbasaur">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 30</li>
+                                <li>Ataque: 55</li>
+                                <li>Defesa: 70</li>
+                                <li>Ataque especial: 89</li>
+                                <li>Defesa especial: 12</li>
+                                <li>Velocidade: 45</li>
+                                <li>Total: 320</li>
+                            </ul>
+                        </div>
+
+                        <div class="skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Folhas de navalha</li>
+                                <li>Chicotes de vinha</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
+                    <div class="cartao-topo">
+
+                        <div class="detalhes">
+                            <h2 class="nome">Charmander</h2>
+                            <span>#003</span>
+                        </div>
+
+                        <span class="tipo">Fogo</span>
+
+                        <div class="cartao-imagem">
+                            <img class="imagem-principal" src="images/charmander.png" alt="charmander">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 60</li>
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 80</li>
+                                <li>Ataque especial: 89</li>
+                                <li>Defesa especial: 12</li>
+                                <li>Velocidade: 45</li>
+                                <li>Total: 370</li>
+                            </ul>
+                        </div>
+
+                        <div class="skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Rosnar</li>
+                                <li>Presas de fogo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite">
+                    <div class="cartao-topo">
+
+                        <div class="detalhes">
+                            <h2 class="nome">Dragonite</h2>
+                            <span>#004</span>
+                        </div>
+
+                        <span class="tipo">Dragão</span>
+
+                        <div class="cartao-imagem">
+                            <img class="imagem-principal" src="images/dragonite.png" alt="dragonite">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 600</li>
+                                <li>Ataque: 120</li>
+                                <li>Defesa: 100</li>
+                                <li>Ataque especial: 40</li>
+                                <li>Defesa especial: 20</li>
+                                <li>Velocidade: 75</li>
+                                <li>Total: 900</li>
+                            </ul>
+                        </div>
+
+                        <div class="skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Soco de fogo</li>
+                                <li>Investida do dragão</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="listagem">
+                <ul>
+                    <li class="pokemon ativo" id="pikachu">
+                        <img src="images/cabeca-pikachu.png">
+                        <span>Pikachu</span>
+                    </li>
+                    <li class="pokemon" id="bulbasaur">
+                        <img src="images/cabeca-bulbasaur.png">
+                        <span>Bulbasaur</span>
+                    </li>
+                    <li class="pokemon" id="charmander">
+                        <img src="images/cabeca-charmander.png">
+                        <span>Charmander</span>
+                    </li>
+                    <li class="pokemon" id="dragonite">
+                        <img src="images/cabeca-dragonite.png">
+                        <span>Dragonite</span>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </main>
+    <script src="script.js"></script>    
+</body>
+</html>
